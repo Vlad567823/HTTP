@@ -1,0 +1,26 @@
+{
+  "name": "http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./HTTP/",
+    "deploy": "parcel build index.html --public-url ./HTTP/ && gh-pages -d dist",
+    "deploy:gh-pages": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad567823/HTTP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlad567823/HTTP/issues"
+  },
+  "homepage": "https://github.com/Vlad567823/HTTP#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
