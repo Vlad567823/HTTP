@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.search-form button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.gallery {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 0;
+}
+
+.gallery li {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  display: block;
+}

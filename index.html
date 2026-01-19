@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Search</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- PNotify -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/BrightTheme.css"
+  />
+</head>
+<body>
+
+  <form class="search-form" id="search-form">
+    <input
+      type="text"
+      name="query"
+      placeholder=""
+      autocomplete="off"
+    />
+    <button type="submit">Пошук</button>
+  </form>
+
+  <ul class="gallery" id="gallery"></ul>
+
+  <!-- PNotify -->
+  <script src="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
