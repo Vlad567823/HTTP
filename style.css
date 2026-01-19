@@ -1,6 +1,11 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 20px;
 }
 
 .search-form {
@@ -18,22 +23,37 @@ body {
 .search-form button {
   padding: 8px 16px;
   cursor: pointer;
+  font-size: 16px;
 }
 
-.gallery {
+.news-list {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 15px;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
 }
 
-.gallery li {
+.news-item {
+  background: #fff;
+  padding: 15px;
   border: 1px solid #ddd;
-  padding: 10px;
+  border-radius: 5px;
 }
 
-.gallery img {
-  width: 100%;
-  display: block;
+.news-item a {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
+
+.news-item p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
 }

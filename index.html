@@ -2,8 +2,7 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8" />
-  <title>Image Search</title>
-
+  <title>News Search</title>
   <link rel="stylesheet" href="style.css" />
 
   <!-- PNotify -->
@@ -18,7 +17,9 @@
 </head>
 <body>
 
-  <form class="search-form" id="search-form">
+  <h1>Пошук новин</h1>
+
+  <form id="search-form" class="search-form">
     <input
       type="text"
       name="query"
@@ -28,11 +29,10 @@
     <button type="submit">Пошук</button>
   </form>
 
-  <ul class="gallery" id="gallery"></ul>
+  <ul class="news-list" id="news"></ul>
 
   <!-- PNotify -->
   <script src="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.js"></script>
-
   <script src="script.js"></script>
 </body>
 </html>
